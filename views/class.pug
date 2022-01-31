@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleclass.css
+
+block content 
+    .container 
+        h1 Class Info 
+        .cards
+            h3 Morning 
+            p From 9:00 am to 12:00 pm 
+            h3 Evening 
+            p From 1:00 pm to 5:00 pm 
+            h3 Night 
+            p From 6:00 pm to 8:00 pm 

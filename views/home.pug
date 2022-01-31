@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introsection 
+      div Welcome to Kaustubh's dance academy    
+      div.small Eat Dance Sleep Repeat
+
+    section#missonsection 
+      h2 Our Misson
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/d1.png")
+          div.card-content
+            p This is the best dance academy in the universe
+
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/img/d2.png")
+          div.card-content
+            p This is the best dance academy in the universe
+
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/d3.png")          
+          div.card-content
+            p This is the best dance academy in the universe
+
+    section#sponserssection 
+      h2 Our Sponsers
+      div#sponsers
+        img.spimg(src="/static/img/logo1.png")
+        img.spimg(src="/static/img/logo2.png")
+        img.spimg(src="/static/img/logo3.png")
+        img.spimg(src="/static/img/logo4.png")
+      

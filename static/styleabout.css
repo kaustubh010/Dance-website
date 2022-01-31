@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #f9e0e0
+}
+
+.container h1{
+    padding-bottom: 36px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    padding-bottom: 60px;
+    width: 50vw;
+    margin: auto;
+}
+
+.cards h3{
+    padding: 23px;
+}

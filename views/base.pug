@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Kaustubh's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul
+        div#logo 
+          img(src='/static/img/logo.png')
+          | KDA 
+        li #[a(href='/') Home]
+        li #[a(href='/about') About]
+        li #[a(href='/services') Services]
+        li #[a(href='/class') Class Info] 
+        li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer 
+      | Copyright &copy; 2022 kaustubhdanceacademy.com | All Rights Reserved
